@@ -1,0 +1,21 @@
+{
+  "name": "vanilla-connect",
+  "version": "1.0.0",
+  "description": "Node.js JWT vanillaConnect",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "install": "coffee -c node_modules/url-whitelist/index.coffee && coffee -c node_modules/url-pattern/index.coffee && coffee -c node_modules/url-pattern/common.coffee"
+  },
+  "author": "BadVolt",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "url-whitelist": "^0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.1.0",
+    "should": "^13.2.0"
+  }
+}
