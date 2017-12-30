@@ -2,6 +2,14 @@
 
 VanillaConnect Library contains everything you need to use the VanillaConnect plugins with a Node.js Project.
 
+## Install
+```
+npm install vanilla-connect
+//This is required to generate JS from coffee-script for dependencies
+cd node_modules/vanilla-connect
+npm run-script install
+```
+
 ## How it works
 
 As the provider, you will receive signed authentication requests.
